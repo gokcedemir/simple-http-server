@@ -8,7 +8,7 @@ WORKDIR /usr/src/app
 COPY index.js ./
 
 # Specify the port the application will run on
-EXPOSE 5000
+EXPOSE 5003
 
 # Start the application
 CMD ["node", "/usr/src/app/index.js"]
